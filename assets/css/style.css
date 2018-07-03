@@ -1,6 +1,14 @@
+body{
+    background-image: url("");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .form{
     margin-top: 30px;
-    border: 1px solid black;
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -21,7 +29,16 @@ h2{
     color: aliceblue;
 }
 .jumbotron{
-    background-color: black;
+    background-image: url("http://laoblogger.com/images/black-and-white-train-pictures-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 10px;
+    height: 200px;
+}
+
+.display-4{
+    font-weight: bolder;
+    font-size: 3em;
 }
 
