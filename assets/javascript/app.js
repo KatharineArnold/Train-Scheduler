@@ -83,7 +83,7 @@ function calculateNextTrain(firstTrainTime, frequency){
 
         </tr>
         `)
-      
+      $(".form-control").val('');
     })
 
 
@@ -115,7 +115,8 @@ function calculateNextTrain(firstTrainTime, frequency){
 
 
     //on click submit event handler do this when submit is clicked
-    $("#submit-button").on("click", function (event) {
+    $("#train-form").on("submit", function (event) {
+
         // Prevent form from submitting
         event.preventDefault();
 
